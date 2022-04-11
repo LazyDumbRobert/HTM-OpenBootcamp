@@ -1,0 +1,75 @@
+/*selectores de elemento*/
+/*
+p {
+    color: aqua;
+}
+
+
+/*estilo universal
+* {
+    color: brown
+}
+*/
+/*
+p {
+    background-color: blueviolet;
+    padding: 10px;
+}
+div{
+    color: aqua;
+    padding: 20px;
+    background-color: rgb(21, 198, 252);
+    margin-bottom: 20px;
+}
+*/
+/*selectores por id*/
+
+#midiv {
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-style: italic;
+
+}
+
+/*Selector por clase*/
+body {
+    font-family: 'Grape Nuts', cursive;
+    font-size: 16px;
+    list-style: 20px;
+}
+.verde {
+    color: green
+}
+
+/*selectr por agrupacion*/
+
+h1,h2,p {
+    color: palevioletred
+}
+
+/*selector por atributo*/
+[atributo="hola"] {
+    color: blue
+}
+
+input[type="text"] {
+    border: 3px solid #000;
+}
+::placeholder{
+    color: red
+}
+
+/* selección descendiente */
+.div1 p {
+    color: crimson;
+    background-color: yellow;
+    padding: 20px;
+    margin: 30px;
+    border: 2px dotted #000;
+}
+/*pseudoclases*/
+div p:hover{
+    color: blue;
+    background-color: red;
+    cursor: pointer;
+}
