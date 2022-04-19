@@ -1,0 +1,18 @@
+
+
+p {
+    color: #00ffff;
+}
+
+p.miparrafo {
+    color: #000000;
+}
+
+div p{
+    color: #ff0000;
+}
+
+div.miparrafo p {
+    color:#a52a2a;
+}
+
