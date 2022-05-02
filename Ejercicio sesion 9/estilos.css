@@ -1,0 +1,38 @@
+body {
+    background-color: wheat;
+    margin: 0;
+    padding: 0px 0;
+}
+
+.cuadrados {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrados_cuadrado {
+    background-color: yellow;
+    width: 5%;
+    margin: 30px;
+    height: 10%;
+}
+
+.cuadrados_cuadrado:hover{
+    animation-name: vuelta_entera;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: both;
+
+}
+
+@keyframes vuelta_entera {
+    from{    }
+    to{
+        transform: translateX(100px) rotate(360deg);
+        opacity: 0;
+    }
+}
