@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.conteiner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+}
+
+.img {
+    display: none;
+}
+
+@media screen AND (max-width: 800px) {
+    .caja {
+        background-color: green;
+    }
+    .video {
+        display: none;
+    }
+
+    .img {
+        display: block;
+    }
+}
